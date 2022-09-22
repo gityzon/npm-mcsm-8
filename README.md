@@ -91,7 +91,7 @@ http://mcsm.suwings.top/ (官方站点)
 **一行命令快速安装（适用于AMD64架构 Ubuntu/Centos/Debian/Archlinux）**
 
 ```bash
-wget -qO- https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh | bash
+wget https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh -O install.sh | bash install.sh
 ```
 
 - 执行完成后，使用 `systemctl start mcsm` 即可启动面板服务。
